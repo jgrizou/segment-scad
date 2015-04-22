@@ -83,8 +83,8 @@ echo("In shift_segment.scad");
 echo("This file should not be included, use ''use <finemane>'' instead.");
 echo("##########");
 
-length = 30;
-shift = 2;
+length = 20;
+shift = 5;
 angle = 35;
 radius = 5;
 width = 5;

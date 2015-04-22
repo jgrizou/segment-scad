@@ -36,5 +36,5 @@ $fn=100;
 p = 1;
 if (p==1) {
   add_twist_segment(20,10,3,90,wallThickness=0.5)
-    #twist_segment(20,10,3,90,wallThickness=0.5);
+    twist_segment(20,10,3,90,wallThickness=0.5);
 }

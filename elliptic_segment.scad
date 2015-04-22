@@ -35,9 +35,4 @@ p = 1;
 if (p==1) {
   add_elliptic_segment(40,20,5,0, wallThickness=1)
     elliptic_segment(40,20,5,180, wallThickness=1);
-  /*hull() {
-    cube([10,10,10], center=true);
-    translate([0,50,0])
-      sphere(10);
-  }*/
 }

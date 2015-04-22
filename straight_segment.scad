@@ -26,6 +26,6 @@ echo("##########");
 
 p = 1;
 if (p==1) {
-  add_straight_segment(10,5,3)
-    straight_segment(100,20,3,0.1);
+  add_straight_segment(length=10,width=10,thickness=5)
+    straight_segment(length=20,width=20,thickness=5,wallThickness=0.5);
 }

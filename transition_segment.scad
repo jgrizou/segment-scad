@@ -119,8 +119,8 @@ if (p==1) {
       square_to_square_transition_segment(20,20,5,20,5,0.5);
 }
 if (p==2) {
-  add_elliptic_to_elliptic_transition_segment(25,5,10,20,10,0.5)
-    add_elliptic_to_square_transition_segment(50, 20, 10, 10, 20, 0.1, 0.5)
+  add_elliptic_to_elliptic_transition_segment(20,5,10,20,10,0.5)
+    add_elliptic_to_square_transition_segment(20, 20, 10, 10, 20, 0.1, 0.5)
       add_square_to_square_transition_segment(20,10,20,30,5,0.5)
-        square_to_elliptic_transition_segment(50, 30, 5, 20, 20, 0.1, 0.5);
+        square_to_elliptic_transition_segment(20, 30, 5, 20, 20, 0.1, 0.5);
 }
