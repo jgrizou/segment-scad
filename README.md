@@ -2,12 +2,12 @@
 
 Tools to create parametrable and linkable segments in [OpenScad](http://www.openscad.org/).
 
-Dependencies:
+### Dependencies:
 
 - OpenScad must be installed on your computer: http://www.openscad.org/downloads.html
 - This [MCAD fork](https://github.com/jgrizou/MCAD) must be located at the same level as this folder.
 
-Get started:
+### Get started:
 ```
 mkdir myfolder
 cd myfolder
@@ -15,13 +15,13 @@ git clone https://github.com/jgrizou/MCAD
 git clone https://github.com/jgrizou/segment-scad
 ```
 
-Each *_segment.scad file contains function for a specific type of segment. They contains small examples of code at the end of the file, it can be run by opening the file in OpenScad.
+Each *_segment.scad file contains function for a specific type of segment. Each segment file contains small examples at the end of the file, the simplest way to run it is to open the file in OpenScad.
 
 Most segments comes with a function starting by add_* which creates the segment and add the forthcoming segments at the end of that segment.
 
 These segments can be specialized for specific application, please refer to https://github.com/jgrizou/robotis-scad for an example.
 
-You are invited to look and play with the code for more details, function names and arguments are usually self explanatory. Below are example code and pictures of what can be done with each segments:
+You are invited to look and play with the code for more details, function names and arguments are usually self-explanatory. Below are example of code for each segment type and pictures of the resulting 3D parts:
 
 - [straight_segment.scad](straight_segment.scad)
 
